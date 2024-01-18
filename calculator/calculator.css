@@ -1,0 +1,60 @@
+h1{
+    position: relative;
+    left: 200px;
+    margin-top: 20px;
+}
+
+.main{
+    width: 20vw;
+    height: 50vh;
+    border: 2px solid black;
+    background-color: gray;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.container{
+    width: 15vw;
+    height: 40vh;
+    border: 2px solid black;
+    background-color: rgb(159, 155, 155);
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.container input{
+    width: 14vw;
+    border-radius: 5px;
+    margin: 5px;
+    height: 30px;
+}
+
+.btn-1 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px
+}
+.btn-1 button {
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+}
+.btn-1 button:hover{
+    background-color: gray;
+}
+.btn-2 button{
+    margin-top: 30px;
+    height: 30px;
+    font-size: 30px;
+    width: 110px;
+    left: 70px;
+    position: relative;
+}
+
+.btn-2 button:hover{
+    background-color: gray;
+}
